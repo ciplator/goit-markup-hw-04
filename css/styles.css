@@ -63,8 +63,6 @@ body {
 .header-position {
   display: flex;
   align-items: center;
-  
-  
 }
 .logo-position {
   margin-right: 76px;
@@ -73,12 +71,10 @@ body {
 .nav-position {
   display: flex;
   align-items: center;
-  
 }
 .menu-position {
   display: flex;
   gap: 40px;
-  
 }
 
 .adress-main {
@@ -112,23 +108,20 @@ body {
   min-width: 169px;
 }
 
-
 .our-features-position {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.icon-item{
-  
-   display: flex;
+.icon-item {
+  display: flex;
   align-items: center;
   justify-content: center;
- height: 112px;
+  height: 112px;
   width: 264px;
-  background: #F4F4FD;
+  background: #f4f4fd;
   border-radius: 4px;
 }
-
 
 .information-item {
   width: 264px;
@@ -140,7 +133,7 @@ body {
 .section-product-position {
   padding-bottom: 120px;
 }
-.doing-position{
+.doing-position {
   margin-bottom: 72px;
 }
 .product-position {
@@ -162,48 +155,47 @@ body {
 .job-place {
   text-align: center;
 }
-.social-list{
+.social-list {
   display: flex;
   justify-content: center;
   padding-bottom: 32px;
   column-gap: 10px;
 }
 .social-list-link:hover,
-.social-list-link:focus
-{
-  background: #31D0AA;
+.social-list-link:focus {
+  background: #31d0aa;
 }
-.social-list-link{
-display: flex;
+.social-list-link {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:#4D5AE5;
+  background-color: #4d5ae5;
 }
-.customers-list-link{
+.customers-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
- border-radius: 4px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
-.customers-item-list{
+.customers-item-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
   padding-bottom: 120px;
-padding-top: 72px;
-
+  padding-top: 72px;
 }
 
 .customers-list-link:hover,
-.customers-list-link:focus{
-fill: #404BBF;}
+.customers-list-link:focus {
+  fill: #404bbf;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -211,21 +203,22 @@ fill: #404BBF;}
 .footer-text {
   width: 264px;
 }
-.social-media{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+.social-media {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.footer-position{
-margin-left: 0px;
-gap: 120px;
+.footer-position {
+  margin-left: 0px;
+  gap: 120px;
 }
-.footer-position-social
-{display: flex;}
+.footer-position-social {
+  display: flex;
+}
 /* <portfolio> */
 
 .section-portfolio {
@@ -276,14 +269,17 @@ gap: 120px;
 }
 
 .hero {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   url(../images/people_office.jpg);
-background-color: rgba(46, 47, 66, 0.7);
-background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people_office.jpg);
+  background-color: rgba(46, 47, 66, 0.7);
+  background-size: cover;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-
 }
 .hero-button {
   cursor: pointer;
@@ -382,14 +378,14 @@ background-size: cover;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.customers-text{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-text-align: center;
-padding-top: 120px;
+.customers-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 120px;
 }
 .footer {
   padding: 100px 0 100px;
