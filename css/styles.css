@@ -58,6 +58,7 @@ body {
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-position {
@@ -121,6 +122,7 @@ body {
   width: 264px;
   background: #f4f4fd;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .information-item {
@@ -269,13 +271,18 @@ body {
 }
 
 .hero {
+  max-width: 1440px;
+  background-repeat: no-repeat;
+ background-position: center;
+  background-size: cover;
+  margin: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people_office.jpg);
   background-color: rgba(46, 47, 66, 0.7);
-  background-size: cover;
+ 
 }
 .hero-button:hover,
 .hero-button:focus {
