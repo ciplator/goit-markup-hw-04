@@ -196,11 +196,17 @@ body {
   justify-content: center;
   gap: 24px;
   padding-bottom: 120px;
-  padding-top: 72px;
 }
 
 .customers-list-link:hover,
 .customers-list-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-list-item{
+  width: calc((100% - 120px) / 6);
+}
+.customers-list-icon{
   fill: #404bbf;
 }
 .footer-logo {
@@ -392,13 +398,16 @@ body {
   color: #2e2f42;
 }
 .customers-text {
+  margin-bottom: 72px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   text-align: center;
   padding-top: 120px;
+  color: #2e2f42;
+  
 }
 .footer {
   padding: 100px 0 100px;
