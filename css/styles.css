@@ -234,6 +234,7 @@ body {
 .footer-position-social {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 .social-list-footer{
     display: flex;
@@ -241,6 +242,10 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   gap: 16px;
+}
+.social-list-link-footer:focus,
+social-list-link-footer:hover{
+  background-color: #31d0aa;
 }
 /* <portfolio> */
 
