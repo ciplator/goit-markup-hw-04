@@ -157,15 +157,19 @@ body {
 .job-place {
   text-align: center;
 }
+.social-list-icon{
+  fill: #f4f4fd;
+}
 .social-list {
   display: flex;
   justify-content: center;
   padding-bottom: 32px;
-  column-gap: 10px;
+  gap: 24px;
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  background: #31d0aa;
+  background-color: #404bbf;
+  background-color: #404bbf;
 }
 .social-list-link {
   display: flex;
