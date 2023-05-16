@@ -112,11 +112,24 @@ body {
   min-width: 169px;
 }
 
+
 .our-features-position {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+.icon-item{
+  
+   display: flex;
+  align-items: center;
+  justify-content: center;
+ height: 112px;
+  width: 264px;
+  background: #F4F4FD;
+  border-radius: 4px;
+}
+
+
 .information-item {
   width: 264px;
 }
@@ -149,7 +162,48 @@ body {
 .job-place {
   text-align: center;
 }
+.social-list{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+  column-gap: 10px;
+}
+.social-list-link:hover,
+.social-list-link:focus
+{
+  background: #31D0AA;
+}
+.social-list-link{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#4D5AE5;
+}
+.customers-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+ border-radius: 4px;
+}
+.customers-item-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 120px;
+padding-top: 72px;
 
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus{
+fill: #404BBF;}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -157,6 +211,21 @@ body {
 .footer-text {
   width: 264px;
 }
+.social-media{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.footer-position{
+margin-left: 0px;
+gap: 120px;
+}
+.footer-position-social
+{display: flex;}
 /* <portfolio> */
 
 .section-portfolio {
@@ -207,11 +276,14 @@ body {
 }
 
 .hero {
-  background-color: #2e2f42;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   url(../images/people_office.jpg);
+background-color: rgba(46, 47, 66, 0.7);
+background-size: cover;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+
 }
 .hero-button {
   cursor: pointer;
@@ -310,7 +382,15 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.customers-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+padding-top: 120px;
+}
 .footer {
   padding: 100px 0 100px;
   background-color: #2e2f42;
