@@ -229,12 +229,12 @@ body {
 }
 .footer-position {
   margin-left: 0px;
+  margin-right: 120px;
   
 }
 .footer-position-social {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .social-list-footer{
     display: flex;
