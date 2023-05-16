@@ -142,7 +142,10 @@ body {
   display: flex;
   gap: 24px;
 }
-
+.container-team{
+  padding-top: 32px;
+   padding-bottom: 32px;
+}
 .our-team-position {
   display: flex;
   gap: 24px;
