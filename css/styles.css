@@ -229,10 +229,18 @@ body {
 }
 .footer-position {
   margin-left: 0px;
-  gap: 120px;
+  
 }
 .footer-position-social {
   display: flex;
+  align-items: baseline;
+}
+.social-list-footer{
+    display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 16px;
 }
 /* <portfolio> */
 
