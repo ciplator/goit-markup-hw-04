@@ -209,8 +209,8 @@ body {
 .customers-list-link:focus{
   border-color:  #404bbf;
 }
-.customers-list-icon:hover,
-.customers-list-icon:focus{
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon{
   fill: #404bbf ;
    
 }
